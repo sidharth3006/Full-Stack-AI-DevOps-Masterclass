@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-b
-          image: dcode007/tax-service-b:node-latest
+          image: sidharth3006/node-service-b:latest
           ports:
             - containerPort: 4000
 ---

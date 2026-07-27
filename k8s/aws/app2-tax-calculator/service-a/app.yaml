@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: service-a
-          image: sidharth3006/node-service-a:latest
+          image: sidharth3006/tax-service-a
           env:
             - name: TAX_SERVICE_URL
               value: "http://service-b:4000"

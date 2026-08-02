@@ -28,13 +28,3 @@ output "s3_bucket_arn" {
     description = "ARN of S3 Bucket"
     value = aws_s3_bucket.demo_bucket.arn
 }
-
-output "iam_user_name" {
-    description = "IAM user created by Terraform"
-    value = aws_iam_user.demo_user.name
-}
-
-output "iam_user_arn" {
-    description = "IAM user ARN"
-    value = aws_iam_user.demo_user.arn
-}

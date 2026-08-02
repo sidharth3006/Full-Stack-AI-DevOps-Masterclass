@@ -10,13 +10,13 @@ resource "aws_instance" "demo_ec2" {
     }
 }
 
-resource "aws_iam_user" "demo_user" {
-  name = var.iam_user_name
-
-  tags = {
-    Purpose = var.iam_purpose
-  }
-}
+# resource "aws_iam_user" "demo_user" {
+#   name = var.iam_user_name
+# 
+#   tags = {
+#     Purpose = var.iam_purpose
+#   }
+# }
 
 
 resource "aws_s3_bucket" "demo_bucket" {

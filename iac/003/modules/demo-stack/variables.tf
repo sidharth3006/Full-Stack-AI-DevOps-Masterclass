@@ -24,16 +24,6 @@ variable "environment" {
   description = "Environment Name"
 }
 
-variable "iam_user_name" {
-  type = string
-  description = "Name of the IAM User"
-}
-
-variable "iam_purpose" {
-  type = string
-  description = "Purpose tag for IAM user"
-}
-
 variable "bucket_name" {
   type = string
   description = "Name of the S3 Bucket"

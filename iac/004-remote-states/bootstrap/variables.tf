@@ -1,5 +1,5 @@
 variable "aws_region" {
   type = string
   description = "AWS Region for EC2 instance"
-  default = "ap-south-1"
+  default = "us-east-1"
 }

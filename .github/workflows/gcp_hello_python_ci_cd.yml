@@ -82,7 +82,7 @@ jobs:
             run: kubectl get nodes
 
           - name: Deploy to GKE (Google Kubernetes Engine)
-            run: kubectl apply -f k8s/gcp/app1-hello
+            run: kubectl apply -f k8s/aws/app1-hello
 
 
 

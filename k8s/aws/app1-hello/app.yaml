@@ -14,12 +14,12 @@ spec:
     spec:
       containers:
         - name: app1-hello
-          image: sidharth3006/hello-node-1:latest
+          image: sidharth3006/hello-python:latest
           env:
             - name: ENV_VALUE
               value: "Hello from app.yaml"
-            - name: DB_PASSWORD
-              value: "cGFzc3dvcmQ=" # base64 for 'password'
+          #  - name: DB_PASSWORD
+          #    value: "cGFzc3dvcmQ=" # base64 for 'password'
           # env:
           #   - name: ENV_VALUE
           #     valueFrom:

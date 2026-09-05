@@ -38,8 +38,8 @@ jobs:
         strategy:
             matrix:
                 service: 
-                    - { name: "service-a", docker_name: "tax-service-a", path: "docker/app2-tax-calculator/spring/service-a"}
-                    - { name: "service-b", docker_name: "tax-service-b", path: "docker/app2-tax-calculator/spring/service-b"}
+                    - { name: "service-a", docker_name: "tax-service-a-spring", path: "docker/app2-tax-calculator/spring/service-a"}
+                    - { name: "service-b", docker_name: "tax-service-b-spring", path: "docker/app2-tax-calculator/spring/service-b"}
 
         steps:
           - name: Checkout Code
